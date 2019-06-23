@@ -802,8 +802,6 @@ services:
         - 2375
       networks:
         - backend
-<<<<<<< HEAD
-=======
 
 ### NetData ################################################
     netdata:
@@ -1204,4 +1202,3 @@ services:
         - postgres
       volumes:
         - ${DATA_PATH_HOST}/Confluence:/var/atlassian/application-data
->>>>>>> a2c7b46... Added graylog to the list of softwares. (#2177)

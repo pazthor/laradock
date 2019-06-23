@@ -325,8 +325,6 @@ services:
         - frontend
         - backend
 
-<<<<<<< HEAD
-=======
 ### ElasticSearch ########################################
     elasticsearch:
       build: ./elasticsearch
@@ -793,7 +791,6 @@ services:
         - backend
       extra_hosts:
         - "laradock-ipython:${LARADOCK_IPYTHON_CONTROLLER_IP}"
->>>>>>> a2c7b46... Added graylog to the list of softwares. (#2177)
 
 ### Docker-in-Docker ################################################
     docker-in-docker:
